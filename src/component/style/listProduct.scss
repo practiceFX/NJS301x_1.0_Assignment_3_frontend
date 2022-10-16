@@ -1,0 +1,25 @@
+.wrapper_shop_product {
+    .top_tabPanel {
+        .search_box {
+            >input {
+                width: 50%;
+                border-radius: 0 !important;
+            }
+        }
+
+
+        .sort_select {
+            text-align: right;
+
+            >select {
+                height: 100%;
+                padding-inline: 12px;
+            }
+        }
+
+        .list_product {
+            margin: 54px 0 !important;
+        }
+
+    }
+}

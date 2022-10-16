@@ -1,0 +1,69 @@
+.sign_in {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+
+    .inner_sign_up {
+        background-color: white;
+        width: fit-content;
+        height: fit-content;
+        padding: 50px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        .title {
+            margin: 20px 0 50px 0 !important;
+            text-align: center;
+        }
+
+        .input {
+            margin-bottom: 0 !important;
+            width: 350px;
+        }
+
+        .input>input {
+            border-radius: 0 !important;
+            padding: 16px;
+            width: 100%;
+            border: 1px solid rgba(0, 0, 0, 0.213);
+        }
+
+        .button {
+            width: 100%;
+            padding: 12px !important;
+            border-radius: 0 !important;
+            background-color: #353535 !important;
+            margin-top: 15px;
+            color: white;
+        }
+
+        .link {
+            margin: 32px 0 0 0 !important;
+        }
+
+        .link>a {
+            text-decoration: none;
+        }
+
+
+    }
+
+    @media all and (max-width: 768px) {
+        .inner_sign_up {
+            width: 95vw;
+            padding: 50px 20px;
+
+            .input {
+                width: 100%;
+                margin: 0;
+            }
+        }
+    }
+}

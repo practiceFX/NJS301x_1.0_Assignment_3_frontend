@@ -1,0 +1,122 @@
+.product_common,
+.product_descrption,
+.product_related {
+    padding: 50px 100px;
+}
+
+@media all and (max-width: 960px) {
+
+    .product_common,
+    .product_descrption,
+    .product_related {
+        padding: 20px;
+    }
+
+    .wrapper_product_slide {
+        flex-flow: column-reverse;
+
+        .inner_product_slide {
+            display: flex;
+            margin-top: 24px;
+            padding: 0;
+        }
+    }
+
+
+
+}
+
+.product_common {
+    .btn_image {
+        background-color: transparent !important;
+        border: 0 !important;
+    }
+
+    .btn_image:hover {
+        background-color: transparent;
+        border: 0;
+        box-shadow: none;
+    }
+
+    .btn_image:focus {
+        background-color: transparent;
+        border: 0;
+        box-shadow: none !important;
+    }
+
+    .btn_image:active {
+        box-shadow: none;
+    }
+
+
+    .product_pamas {
+        .title_pamas {
+            margin: 12px 0 !important;
+        }
+
+        .price {
+            margin: 48px 0 !important;
+        }
+
+        .short_des {
+            padding-right: 10vw;
+        }
+
+        .category {
+            margin: 32px 0 !important;
+        }
+
+        .count_area {
+            display: flex;
+        }
+
+        .count_area {
+            >button {
+                border-radius: 0;
+                background-color: #353535;
+            }
+
+            >input {
+                width: 20%;
+                border-radius: 0;
+                border-right: 0;
+                background-color: transparent !important;
+            }
+
+            >span {
+                border-left: 0;
+                border-radius: 0;
+
+
+                >button {
+                    background-color: transparent;
+                    padding: 0;
+
+                }
+
+                >button:hover {
+                    background-color: transparent;
+                }
+
+                >input {
+                    background-color: transparent;
+                    width: 35px !important;
+                }
+            }
+        }
+
+    }
+}
+
+.product_descrption {
+    .long_des_btn {
+        margin: 24px 0;
+        padding: 12px 24px;
+        border-radius: 0;
+        background-color: #353535 !important;
+    }
+
+    .title_des {
+        margin: 16px 0 32px 0;
+    }
+}

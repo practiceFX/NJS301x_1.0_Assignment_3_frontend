@@ -1,0 +1,53 @@
+.filter-categories {
+    .title {
+        font-weight: bold !important;
+        margin-bottom: 20px !important;
+    }
+
+    .brand {
+        background-color: #0f100d;
+        color: white;
+        padding: 15px 20px !important;
+    }
+
+    .tag,
+    .link {
+        padding: 15px 20px !important;
+    }
+
+    .tag {
+        font-weight: bold !important;
+    }
+
+    .link>a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .button-filter {
+        background-color: transparent !important;
+        border: 0;
+    }
+}
+
+
+.icon_filter {
+    display: none;
+
+}
+
+
+@media all and (max-width: 990px) {
+
+    // .filter-categories {
+    //     display: none;
+    // }
+    .icon_filter {
+        text-align: end !important;
+        margin-bottom: 16px;
+        display: block;
+        cursor: pointer;
+        background-color: transparent !important;
+        border: 0;
+    }
+}

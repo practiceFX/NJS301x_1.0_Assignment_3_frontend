@@ -1,0 +1,96 @@
+.live_chat {
+    position: fixed !important;
+    background-color: #353535 !important;
+    bottom: 5vh;
+    right: 5vh;
+    padding: 10px;
+    border-radius: 50% !important;
+    z-index: 10;
+}
+
+.live_chat>i {
+    font-size: 40px;
+    color: white;
+}
+
+.card-live-chat {
+    position: fixed !important;
+    bottom: 11vh;
+    right: 11vh;
+    width: 350px;
+    height: 400px;
+    padding: 0 !important;
+    background-color: white;
+    z-index: 10;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+    .chat-client {
+
+        text-align: right;
+
+        >div {
+            background-color: #48b0f7;
+            color: white;
+            padding: 5px 15px;
+            width: fit-content;
+            align-self: self-end;
+        }
+    }
+
+    .chat-staff {
+        >div {
+            background-color: #cbcbcb;
+            color: white;
+            padding: 5px 15px;
+            width: fit-content;
+        }
+    }
+
+    .chat-item {
+        border: 0;
+    }
+
+    .input-chat {
+        width: 100%;
+        position: absolute;
+        display: flex;
+        bottom: 0;
+        left: 0;
+        height: 50px;
+
+        >i {
+            line-height: 40px;
+            margin: 0 15px
+        }
+
+        .section-chat {
+            width: 100%;
+
+            display: flex;
+
+            >input {
+                border: 0 !important;
+            }
+
+            >input:focus,
+            >input:hover {
+                outline: none;
+                box-shadow: none;
+            }
+
+            >button {
+                background-color: transparent;
+                border: 0;
+                margin-inline: 15px
+            }
+        }
+    }
+
+    .wrapper-live-chat {
+        overflow-y: scroll !important;
+        height: calc(100% - 75px);
+    }
+
+}

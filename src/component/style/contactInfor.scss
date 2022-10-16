@@ -1,0 +1,30 @@
+.card_home_infor {
+    margin: 64px 0 !important;
+}
+
+.card_home_search_box {
+    margin: 160px 0 !important;
+}
+
+.search_area {
+    display: flex;
+    padding-right: 100px;
+
+    >input {
+        border-radius: 0;
+        padding: 24px 16px;
+    }
+
+    >button {
+        border-radius: 0;
+        width: 200px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .search_area {
+        padding-right: 0 !important;
+        margin: 64px 0;
+    }
+
+}

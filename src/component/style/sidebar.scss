@@ -1,0 +1,58 @@
+.wrapper_sidebar {
+    background-color: rgba(0, 0, 0, 0.025);
+    position: fixed;
+    z-index: 15;
+    top: 0;
+    left: 0;
+    width: 100vh;
+    height: 100vh;
+    display: none;
+}
+
+@media all and (max-width:540px) {
+    .wrapper_sidebar {
+        display: none;
+    }
+}
+
+
+.active_sidebar {
+    display: block !important;
+
+}
+
+
+.section_sidebar {
+
+    background-color: white;
+
+    width: 80vw;
+    height: 100vh;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+
+
+    .inner_sidebar {
+        .brand {
+            background-color: transparent !important;
+            margin: 20px 0;
+            border: 0;
+
+            >.card-title {}
+        }
+
+        .item_sidebar {
+            background-color: transparent !important;
+            margin: 5px 12px;
+            border: 0;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.114);
+
+
+            >a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+
+
+}

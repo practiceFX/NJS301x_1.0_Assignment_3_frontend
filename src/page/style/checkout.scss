@@ -1,0 +1,40 @@
+.checkout {
+    padding-inline: 50px;
+    margin: 50px 0 100px 0 !important;
+
+    .title {
+        margin-bottom: 30px;
+    }
+
+    .form_item>input {
+        border-radius: 0 !important;
+        padding: 12px 16px;
+    }
+
+    .btn {
+        background-color: #353535;
+        border-radius: 0 !important;
+        margin-top: 8px;
+        color: white;
+    }
+
+    .order_panel {
+        background-color: #c5c5c524;
+        height: fit-content;
+        padding: 50px 25px;
+
+        .cart_total_subtotal {
+            display: flex;
+            margin: 24px 0;
+            padding-bottom: 20px;
+            font-size: 14px !important;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.062);
+
+            >span {
+                margin: 0 0 0 auto;
+            }
+        }
+
+
+    }
+}
